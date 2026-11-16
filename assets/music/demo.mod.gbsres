@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "18d85845-fadc-4f98-a5d1-44a98b3e0c21",
+  "name": "demo",
+  "symbol": "song_demo",
+  "settings": {},
+  "filename": "demo.mod",
+  "type": "mod"
+}

@@ -1,0 +1,39 @@
+{
+  "_resourceType": "scene",
+  "id": "25944075-b35e-433a-b433-a2315eb2004d",
+  "_index": 0,
+  "type": "TOPDOWN",
+  "name": "Hut",
+  "symbol": "scene_hut",
+  "x": 260,
+  "y": 0,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "b7dbff12-20ad-4bf1-aeb6-f54b4e80616e",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "fc397ac5-ef47-4b11-aeca-dae625183286",
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "18d85845-fadc-4f98-a5d1-44a98b3e0c21",
+        "loop": true
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "ff6ff0302ff0302ff0302ff0302ff0302ff0302ff0301ff0401ff0402ff0302ff0302ff0302ff0302ff0302ff0302ff030ff6f"
+}

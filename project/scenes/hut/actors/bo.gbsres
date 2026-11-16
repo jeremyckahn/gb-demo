@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "8739a87a-3d2d-4d14-af95-443db5d4904e",
+  "_index": 0,
+  "symbol": "actor_bo",
+  "prefabId": "",
+  "name": "Bo",
+  "coordinateType": "tiles",
+  "x": 14,
+  "y": 11,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "f42effc7-e707-4013-9b9c-e4aaf3332102",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "That star over\nthere? Grab it.\nYou're done!"
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

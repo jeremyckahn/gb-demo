@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "30cbc960-80cd-4b1e-9946-295fd41d31df",
+  "name": "meadow",
+  "symbol": "bg_meadow",
+  "tileColors": "",
+  "filename": "meadow.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

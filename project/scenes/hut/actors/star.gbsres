@@ -1,0 +1,67 @@
+{
+  "_resourceType": "actor",
+  "id": "a2f3fc48-1c41-494e-8a24-cf60f2db1c75",
+  "_index": 0,
+  "symbol": "actor_star",
+  "prefabId": "",
+  "name": "Star",
+  "coordinateType": "tiles",
+  "x": 11,
+  "y": 4,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "d6b244cd-2b77-4ddf-9bc2-8944b8e69bfa",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "A shiny star!\nThat's the whole\ndemo. Nice walk!"
+      }
+    },
+    {
+      "id": "1978d2a5-1f57-475c-9ace-aaa86c232530",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "true"
+        }
+      }
+    },
+    {
+      "id": "20023b7a-90f3-42f9-929d-2d18658b98a3",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "ca718340-6862-49ef-b052-0a086eda78f4",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      }
+    },
+    {
+      "id": "764c5649-8cf5-4f92-871c-d71b6715ffdf",
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "a2f3fc48-1c41-494e-8a24-cf60f2db1c75"
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

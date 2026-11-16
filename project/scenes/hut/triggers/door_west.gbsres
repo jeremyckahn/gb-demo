@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "e052d569-87e4-4c3e-8dc5-90703ae5f07c",
+  "_index": 0,
+  "symbol": "trigger_door_west",
+  "prefabId": "",
+  "name": "Door West",
+  "x": 0,
+  "y": 8,
+  "width": 1,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "d27c8b61-e089-4044-8070-bc83f81e10d5",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "ecc10938-b700-4cf1-9d61-2d4e65e95414",
+        "x": {
+          "type": "number",
+          "value": 17
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "direction": "left",
+        "fadeSpeed": "1"
+      }
+    }
+  ],
+  "leaveScript": []
+}

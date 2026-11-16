@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "90871919-cd23-4c67-85ac-72e57e8721ec",
+  "_index": 0,
+  "symbol": "trigger_door_east",
+  "prefabId": "",
+  "name": "Door East",
+  "x": 19,
+  "y": 8,
+  "width": 1,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "936d9bd5-aa73-44c8-9962-f7469a822533",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "25944075-b35e-433a-b433-a2315eb2004d",
+        "x": {
+          "type": "number",
+          "value": 1
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "direction": "right",
+        "fadeSpeed": "1"
+      }
+    }
+  ],
+  "leaveScript": []
+}

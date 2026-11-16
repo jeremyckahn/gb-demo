@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b7dbff12-20ad-4bf1-aeb6-f54b4e80616e",
+  "name": "hut",
+  "symbol": "bg_hut",
+  "tileColors": "",
+  "filename": "hut.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

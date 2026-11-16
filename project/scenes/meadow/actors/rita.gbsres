@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "19d502f1-639f-4e6a-b063-6faa8acec93a",
+  "_index": 0,
+  "symbol": "actor_rita",
+  "prefabId": "",
+  "name": "Rita",
+  "coordinateType": "tiles",
+  "x": 5,
+  "y": 5,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "e63fddd9-8f16-45bc-bb18-325e862c174e",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Hi! I'm Rita.\nThe star is in\nthe hut to the east."
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

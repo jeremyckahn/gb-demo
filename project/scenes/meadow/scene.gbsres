@@ -1,0 +1,39 @@
+{
+  "_resourceType": "scene",
+  "id": "ecc10938-b700-4cf1-9d61-2d4e65e95414",
+  "_index": 0,
+  "type": "TOPDOWN",
+  "name": "Meadow",
+  "symbol": "scene_meadow",
+  "x": 0,
+  "y": 0,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "30cbc960-80cd-4b1e-9946-295fd41d31df",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "51649424-ba21-49ed-9dc2-325252e97a98",
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "18d85845-fadc-4f98-a5d1-44a98b3e0c21",
+        "loop": true
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "ff6ff0302ff0302ff0302ff0302ff0302ff0302ff0302ff0401ff0401ff0302ff0302ff0302ff0302ff0302ff0302ff030ff6f"
+}
